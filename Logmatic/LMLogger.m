@@ -10,7 +10,7 @@
 #import "NSArray+LMMerge.h"
 #import "LMUserDefaultsPersistence.h"
 
-static NSString * const kRootUrl = @"https://api.logmatic.io/v1/input";
+static NSString * const kRootUrl = @"https://http-intake.logs.datadoghq.eu/v1/input";
 static NSString * const kMessageKey = @"message";
 static NSString * const kTimestampKey = @"timestamp";
 static NSString * const kIpTrackingHeaderKey = @"X-Logmatic-Add-IP";
