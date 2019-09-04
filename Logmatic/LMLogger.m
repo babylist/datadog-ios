@@ -10,7 +10,8 @@
 #import "NSArray+LMMerge.h"
 #import "LMUserDefaultsPersistence.h"
 
-static NSString * const kRootUrl = @"https://http-intake.logs.datadoghq.eu/v1/input";
+// ⚠️ huguesbr: `LMLogger.m`: edit endpoint to point to datadog US server (https://docs.datadoghq.com/api/?lang=bash#send-logs-over-http)
+static NSString * const kRootUrl = @"https://http-intake.logs.datadoghq.com/v1/input";
 static NSString * const kMessageKey = @"message";
 static NSString * const kTimestampKey = @"timestamp";
 static NSString * const kIpTrackingHeaderKey = @"X-Logmatic-Add-IP";
